@@ -3,9 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Toko Online by Rudianto</title>
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<?php $this->load->view('layout/includes'); ?>
 </head>
 <body style="background:#1abc9c">
 		<form action="<?php echo base_url();?>index.php/login/getlogin" method="post">
